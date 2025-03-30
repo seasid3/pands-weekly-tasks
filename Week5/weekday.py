@@ -21,7 +21,7 @@ dayOfWeek = currentDate.weekday()
 # sanity check
 # print(dayOfWeek) - reverted to a comment when sanity check worked
 
-# The chatGPT told me to define a list of weekday names
+# Then chatGPT told me to define a list of weekday names
 weekdays = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
 
 # sanity check, using code proposed by chatgpt:
@@ -39,8 +39,9 @@ if dayOfWeek <5:
 else:
     print("It's the weekend, yay!")
 
-# I wanted to write if dayOfWeek[:5] for the weekday output but I have learned 
-# that you can't slice integers [dayOfWeek = currentDate.weekday() returns 
-# integers] so you have to use a function "<5" that you can use for integers
-# (days of weeks as 0 to 6 are not index positions but actual integers 
-# - confusing but I can feel the penny dropping!)
+# Fist, I wanted to write if dayOfWeek[:5] for the weekday output but this returned an
+# error about not being able to slice integers [dayOfWeek = 
+# currentDate.weekday() returns # integers]. I asked chatGPT what was wrong with 
+# my code and it also stated you can't slice integers and you have to use 
+# the "<5" to define the actual integers (and not the index position; # (days
+# of weeks as 0 to 6 are not index positions but actual integers)
