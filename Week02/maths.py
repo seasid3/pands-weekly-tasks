@@ -1,6 +1,6 @@
 # Maths
-# messing around with maths
-# Author Orla Woods
+# This program is messing around with maths
+# Author: Orla Woods
 
 floatnum = 0.29
 
