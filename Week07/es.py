@@ -1,10 +1,11 @@
+# es.py
 # This program will read in a text file (moby-dick.txt) and outputs the number of 'e's it contains. 
 # Author: Orla Woods
 
 # I found this very confusing. To start with, I took the messingwithfiles (txt files) code from week 
-# 7 lecures (that I type as I listen to the lectures to make it go in!) and adapted it to
-# create a file called moby-dick.txt. It did this but then I had no idea what to do (I used brown cow etc
-# to make sure it was working and it was, the file was created. code commented out below)
+# 7 lecures (that I type as I listen to the lectures) and adapted it to create a file called moby-dick.txt. 
+# It did this but then I had no idea what to do (I used brown cow etc. to make sure it was working and it 
+# was, the file was created. code commented out below)
 
 '''
 with open("moby-dick.txt", "w+") as f: # open in write mode and in text mode
@@ -30,14 +31,13 @@ with open("moby-dick.txt", "w+") as f: # open in write mode and in text mode
 # "python es.py moby-dick.txt":
 # "Error: An unexpected error occurred while processing the file: 'charmap' codec can't decode byte 0x9d 
 #  in position 6742: character maps to <undefined>""
-# I asked ChatGPT what was this error. It told me that this "indicates that there's an issue with character 
+# I asked ChatGPT what this error was. It told me that this "indicates that there's an issue with character 
 # encoding. This happens because the file you're trying to read contains characters that are not compatible
 # with the default encoding used by Python on your system". It tole me to make sure this following text
 # was included my code when reading the file (utf-8 is most common encoding for text files):
 # "(encoding = 'utf-8' , errors ='ignore')"
 # I removed the translator notes, notes from the publisher, etc. from the moby-dick.txt file to make it as 
 # clean as possible  
-
 
 import sys # allows access to some variables and functions that interact directly with the Python runtime 
 # environment. Used to handle command-line arguments
@@ -106,19 +106,19 @@ def main(): # defining the main program
 # call the main function to start the program
 main()
 
-# to run this i need to enter the following in the terminal: python es.py moby-dick.txt
+# to run this I need to enter the following in the terminal: python es.py moby-dick.txt
 
 # This code:
 # - checks if only one argument (the filename is provided)
 # - if the argument count is wrong, displays useage message and exits
-# - if the argument count is correct, assigns the filename to FILENAME and calls
-# the count_e_in_file(FILENAME) function to process the file.
+# - if the argument count is correct, assigns the filename to FILENAME and calls the count_e_in_file(FILENAME) 
+# function to process the file.
 
 # To be totally clear again, I was absolutely stumped with this. I relied on chatGPT for all of the help
-# as when I went to read the pyton files it was very complicated and I needed it explained explicitly to me.
+# as when I went to read the python files it was very complicated and I needed it explained explicitly to me.
 # When I got the code working, I asked chatGPT to explain each line of code to me and that is where I got the
-# notes. While I am able to type "python es.py moby-dick-txt" in the terminal and return a count on the 'e's 
+# comments. While I am able to type "python es.py moby-dick-txt" in the terminal and return a count on the 'e's 
 # in the moby-dick.txt file I created (I am not sure which extra text I erased that you have in yours and
 # I no longer have, but I don't think the actual number is what's important?), I really want to be upfront
 # that I may never have been able to complete this task without chatGPT and I am on that knife edge of
-# understanding/not understanding it
+# understanding/not understanding it.
