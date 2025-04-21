@@ -32,8 +32,10 @@ This repository contains submissions for each of the Weekly Tasks (Week 1 to Wee
 
 ### *References*
 
-1. 
-2. 
+Week 2:
+1. https://www.datacamp.com/tutorial/how-to-convert-a-string-into-an-integer-in-python
+2. https://stackoverflow.com/questions/70080676/how-do-i-print-cents-as-decimals
+3. https://www.datacamp.com/tutorial/python-round-to-two-decimal-places
 3. 
 4. 
 
