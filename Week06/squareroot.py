@@ -22,39 +22,44 @@
 # When I ran the code it gave 15 decimal places in the output, so I used the round() function
 # https://www.w3schools.com/python/ref_func_round.asp
 # After writing the code, I ran it through ChatGPT to check for errors and it suggested several changes 
-# to improve readability and precision of the code: 
+# to improve readability and precision of the code. I did not follow all suggestions as I wanted to keep 
+# the code I had written.
 # https://chatgpt.com/share/6806aab8-4c48-800d-bd96-cdd0a3bacafc
 
-a_number = float(input("Please enter a positive number: ")) # ask the user to provide the number
+# Validate the input to ensure it is a positive number:
+while True: 
+     try:
+          a_number = float(input("Please enter a positive number: ")) 
+          if a_number > 0:
+               break  # exit the loop if the input is valid
+          else:
+               print("The input must be a positive number") 
+     except ValueError:
+         print("Invalid input. Please enter a positive number.")
 
 # Define a function sqrt to return the square root of a number using Newton's method:
 def sqrt(a_number: float, tolerance: float = 1e-5) -> float: # function returns a float 
 
-     # Adding a value error to make sure the user inputs a positive number:
-     if a_number <= 0:
-          raise ValueError("Please input a positive number.")
+    # Define the initial guess for the square root
+    x = a_number / 2    
+    # Initialise the iteration count. Use 0 as a value to allow the iterations to start
+    count = 0
 
-     # Define the initial guess for the square root
-     x = a_number / 2    
+    while True:
+        count += 1 # keep iterating with the calculation..
 
-     # Initialise the iteration count. Use 0 as a value to allow the iterations to start
-     count = 0
-
-     while True:
-         count += 1 # keep iterating with the calculation..
-
-          # Calculate a new approximation for the square root
-         root = 0.5 * (x + (a_number/x))
+        # Calculate a new approximation for the square root
+        root = 0.5 * (x + (a_number/x))
 
          # check for closeness (based on the tolerance level). define when to stop the calculation
-         if abs(root - x) < tolerance:
-             break
+        if abs(root - x) < tolerance:
+              break
          
-         # Update guess for the next iteration
-         x = root
+        # Update guess for the next iteration
+        x = root
 
-     # Return the square root value rounded to 2 decimal places
-     return round(root, 2) 
+# Return the square root value rounded to 2 decimal places
+    return round(root, 2)
 
 # Print the result 
 print(f"The square root of {a_number} is approx. {sqrt(a_number)}")
