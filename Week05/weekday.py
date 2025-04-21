@@ -1,47 +1,38 @@
 # This program will output if today is a weekday or not.
 # Author: Orla Woods
 
-# I had no idea where to start with this so I asked chatGPT how python can
-# determine what day of the week it is without user input. It told me to 
-# import the datetime module which allows you to work with dates and times
+# Googling how to determine what day of the week it is without user input in python:
+# https://www.shecodes.io/athena/10185-how-to-check-what-day-of-the-week-it-is-in-python
+# https://www.geeksforgeeks.org/python-program-to-find-day-of-the-week-for-a-given-date/
+# Help from ChatGPT: https://chatgpt.com/c/68069f62-4914-800d-8a49-3694d5b79891
 
-# import datetime module
+# Import datetime module
 import datetime
 
-# It then told me to get the current date and time as follows:
-currentDate = datetime.datetime.now()
+# Get the current date and time:
+current_date = datetime.datetime.today()
 
-# sanity check
-# print(currentDate) - reverted to a comment when sanity check worked
+# Sanity check
+# print(current_date) # reverted to a comment when sanity check worked
 
-# It then told me to get the day of the week as an integer 
-# (0 = Monday, 6 = Sunday):
-dayOfWeek = currentDate.weekday()
+# Get the day of the week (0 = Monday, 6 = Sunday):
+day_of_week = current_date.weekday()
 
-# sanity check
-# print(dayOfWeek) - reverted to a comment when sanity check worked
+# Sanity check: 
+# print(day_of_week) # reverted to a comment when sanity check worked
 
-# Then chatGPT told me to define a list of weekday names
+# Define a list of weekday names
 weekdays = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
 
-# sanity check, using code proposed by chatgpt:
-# print out day of the week
-# print("Today is:", weekdays[dayOfWeek]) - reverted to 
-# a comment when sanity check worked
+# Sanity check: print out day of the week
+# print("Today is:", weekdays[day_of_week]) # reverted to # a comment when sanity check worked
 
-# now I am going to insert a loop: this is going to output 
-# "Yes, unfortunately today is a weekday." where an item from the 
-# list weekdays[:5] is produced. It will say "It's the weekend, yay!" for
-# the list weekdays[5:]. Again used chatGPT for help.
-
-if dayOfWeek <5:
+# Use an if/else statement to give an output depending on if the current day of the week is a weekday or a 
+# weekend day. 
+if day_of_week <5:
     print("Yes, unfortunately today is a weekday.")
 else:
     print("It's the weekend, yay!")
 
 # Fist, I wanted to write if dayOfWeek[:5] for the weekday output but this returned an
-# error about not being able to slice integers [dayOfWeek = 
-# currentDate.weekday() returns # integers]. I asked chatGPT what was wrong with 
-# my code and it also stated you can't slice integers and you have to use 
-# the "<5" to define the actual integers (and not the index position; # (days
-# of weeks as 0 to 6 are not index positions but actual integers)
+# error about not being able to slice integers [dayOfWeek = # currentDate.weekday() returns integers]. 
