@@ -1,71 +1,56 @@
 # accounts.py
-# This program reads a 10 character account number and outputs the last 4 digits
-# with Xs. It also does the same for an account number of n digits length 
-# (where n>= 4)
+# This program reads in a 10 character account number and outputs the first 6 digits with Xs and shows the 
+# last 4 digits. 
+# Extra: It also does the same for an account number of n digits in length (where n >= 4)
 # author: Orla Woods
 
+# Commenting out the task so I can run the Extra task:
 '''
-accountnumber = input("Please enter a 10 digit account number: ")
-lastfourdigits = accountnumber[-4:]
-securityaccountnumber = (f"Your account number is: XXXXXX{lastfourdigits}")
-print(securityaccountnumber)
+# Ask the user to input a 10 digit account number.
+# Revising this task at the end of the module, I have decided to use a while loop to ensure the
+# user only inputs a 10 digit number, using the length function. 
+# https://www.datacamp.com/tutorial/elif-statements-python
+# https://www.w3schools.com/python/ref_func_len.asp
+# I had to ask chatGPT to check my code and correct it: 
+# https://chatgpt.com/share/68064053-6b28-800d-b835-e32d53e0e69b
 
-# I did the datacamp first few modules on python which teach about 
-# how to name the place of an item in a list of things i.e. digit 7 in 10 or -4 for the same one.                          
-# I am also getting help here as I code and I think that's co-pilot running
-# I'm not taking all suggestions but trying to think myself and using co-pilot
-# when i encounter a syntax error. trying to get to grips with when to use f 
-# string
-'''
+account_number = input("Please enter a 10 digit account number: ")
+while len(account_number) != 10 or not account_number.isdigit():
+    account_number = input("Invalid input. Please enter a 10 digit account number: ")
+   
+last_four_digits = account_number[-4:] 
+security_account_number = (f"Your account number is: XXXXXX{last_four_digits}")
+print(security_account_number)
+''' 
+
 # Extra task:
+# I think I need to assign the last 4 digits as integers. Using place assignment, counting back from the end of 
+# the # account number allows me to use -4 position in any length of account number >= 4 digits long. The 
+# struggle is how to replace n amount of numbers from the start of the a/c number to position -4 with the same 
+# number of Xs as digits in that part of the a/c number. I want to define the range from 0 position to -4 as a 
+# string (I think?) # of n numberrs and replace this string with another string of n number of Xs.
 
-accountnumber = input("Please enter an account number of any length: ")
-lastfourdigits = accountnumber[-4:]
-firstdigits = accountnumber[:-4]
+account_number = input("Please enter an account number of any length: ")
+last_four_digits = account_number[-4:]
+first_digits = account_number[:-4]
 
-# i need to assign the last 4 digits as integers. using place assignment
-# counting back from the end of the account number allows me to 
-# use -4 position in any length of account number >= 4 digits long. the 
-# struggle is how to replace n amount of numbers from the start of the a/c 
-# number to position -4 with the same number of Xs as digits in that part of
-# the a/c no. 
-# i want to define the # range from 0 position to -4 as a string (I think?) 
-# of n numberrs and replace this string with another string of n number of Xs.
+# Action 1: I checked the type. 
+# print(type(first_digits))
+# The output of firstdigits is a string. 
 
-'''
-# action 1: I checked the type. The output of firstdigits is a string
+# Action 2: I checked the length of the string first_digits: 7 in an 11 digit number so I am happy I have 
+# identified the first digits which are not the last 4 digits.
+# print(len(first_digits))
 
-print(type(firstdigits))
+# Action 3: I am going to try to replace the string in the range [:-4] with Xs.
+# first_digits_x = string.replace(first_digits, "X", [0:-4])
+# https://www.w3schools.com/python/ref_string_replace.asp
+# This did not work, it gave a sytax error (invalid syntax). 
 
-# action 2: I checked the length of the string firstdigits: 7 in an 
-# 11 digit number so I am happy I have identified the first digits which are
-# not the last 4 digits.
+# Asking ChatGPT, I sae I was on the right track using length:
+# https://chatgpt.com/share/68063d6c-ea8c-800d-9793-676a87799fc5
 
-print(len(firstdigits))
-
-# action 3: I am going to try to replace the string in the range [:-4] with Xs.
-# function from w3schools
-
-firstdigitsx = string.replace(firstdigits, "X", [0:-4])
-
-# This did not work, it gave a sytax error. 
-'''
-
-# i asked co-pilot about the syntax error and it said i can't replace using 
-# a range, to use the length (glad to realise I was on the right track with 
-# length earlier). Everything I could find on W3schools was working with
-# defined variables but not varying variable. 
-# The approach of replacing for the length worked for a/c numbers of >= 4 digits
-# Co-pilot helped write the # code as I was typing. I uesd a "+"" for the print
-# between the n amount of Xs and the 4 end digits but took this out as a 
-# plus appeared in # the output.
-
-firstdigitsx = firstdigits.replace(firstdigits, "X" * len(firstdigits))
-securityaccountnumber = (f"Your account number is: {firstdigitsx}{lastfourdigits}")
-print(securityaccountnumber)
- 
-# That was a great fun! Tough but so satisfying to finally get it. Love the
-# problem solving aspect of it and I am delighted to feel like I'm 
-# properly coding! Thank you!
-
+first_digits_x = 'X' * len(account_number[:-4])
+secure_account = first_digits_x + last_four_digits
+print(secure_account)
 
