@@ -47,6 +47,17 @@ Week 3:
 8. https://www.w3schools.com/python/ref_string_replace.asp
 9. https://chatgpt.com/share/68063d6c-ea8c-800d-9793-676a87799fc5
 
+Week 4:
+10. https://www.w3resource.com/python-exercises/challenges/1/python-challenges-1-exercise-23.php#google_vignette
+11. https://en.wikipedia.org/wiki/Collatz_conjecture
+12. https://stackoverflow.com/questions/13366830/collatz-conjecture-sequence
+13. https://stackoverflow.com/questions/26748083/creating-a-loop-to-check-a-variable-to-make-sure-it-is-a-positive-integer
+14. https://www.reddit.com/r/learnpython/comments/yq7vkk/write_a_program_that_prompts_the_user_to_enter_an/?rdt=37874
+15. https://www.w3schools.com/python/python_while_loops.asp
+16. https://chatgpt.com/share/68069acd-eba4-800d-a0e7-f3b55e95547a
+
+Week 5:
+17.
 
 # END    
 
