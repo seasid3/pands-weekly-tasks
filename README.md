@@ -25,7 +25,7 @@ This repository contains submissions for each of the Weekly Tasks (Week 1 to Wee
   This program asks the user to input a positive floating-point number and outputs an approximation of its square root. 
 
 - Week 7: es.py   
-  This program reads in a text file and outputs the numbers of e's it contains. The associated text file name is moby-dick.txt. To run this program in the terminal you need to type: $ python es.py moby-dick.txt
+  This program reads in a text file and outputs the numbers of e's it contains. The associated text file name is moby-dick.txt. To run this program in the terminal, type: $ python es.py moby-dick.txt
 
 - Week 8: plottask.py  
   This program displays a histogram of a normal distribution of 1000 values with a mean of 5 and a standard deviation of 2. Also, the function h(x)=x**3 in the rage 0 to 10 is plotted. Both plots are on a single set of axes. The image of the plot is saved as the file plottask.png.
@@ -71,10 +71,13 @@ Week 6:
 26. https://chatgpt.com/share/6806aab8-4c48-800d-bd96-cdd0a3bacafc
 
 Week 7:
-27. 
-28. 
-29.
-30.
+27. https://chatgpt.com/share/6806c0a1-e9ec-800d-adf1-0d56fb4b211a
+28. https://chatgpt.com/c/6806c0e2-a80c-800d-b843-1983716ec034 
+29. https://www.gutenberg.org/files/2701/2701-h/2701-h.htm
+30. https://www.gutenberg.org/ebooks/2701
+
+Week 8:
+31. 
 
 # END    
 
