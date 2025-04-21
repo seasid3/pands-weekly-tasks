@@ -32,12 +32,20 @@ This repository contains submissions for each of the Weekly Tasks (Week 1 to Wee
 
 ### *References*
 
+Week 1: 
+1. https://www.datacamp.com/tutorial/python-print-function
+
 Week 2:
-1. https://www.datacamp.com/tutorial/how-to-convert-a-string-into-an-integer-in-python
-2. https://stackoverflow.com/questions/70080676/how-do-i-print-cents-as-decimals
-3. https://www.datacamp.com/tutorial/python-round-to-two-decimal-places
-3. 
-4. 
+2. https://www.datacamp.com/tutorial/how-to-convert-a-string-into-an-integer-in-python
+3. https://stackoverflow.com/questions/70080676/how-do-i-print-cents-as-decimals
+4. https://www.datacamp.com/tutorial/python-round-to-two-decimal-places
+
+Week 3: 
+5. https://www.datacamp.com/tutorial/elif-statements-python
+6. https://www.w3schools.com/python/ref_func_len.asp
+7. https://chatgpt.com/share/68064053-6b28-800d-b835-e32d53e0e69b
+8. https://www.w3schools.com/python/ref_string_replace.asp
+9. https://chatgpt.com/share/68063d6c-ea8c-800d-9793-676a87799fc5
 
 
 # END    
