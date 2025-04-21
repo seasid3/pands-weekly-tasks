@@ -61,5 +61,20 @@ Week 5:
 18. https://www.geeksforgeeks.org/python-program-to-find-day-of-the-week-for-a-given-date/
 19. https://chatgpt.com/c/68069f62-4914-800d-8a49-3694d5b79891
 
+Week 6:
+20. https://en.wikipedia.org/wiki/Newton%27s_method  
+21. https://calculus.domains.trincoll.edu/wp-content/uploads/2019/10/F19_131_Newton_s_Method_final.pdf  
+22. https://www.geeksforgeeks.org/find-root-of-a-number-using-newtons-method/  and 
+23. https://math.stackexchange.com/questions/3524205/square-roots-by-newton-s-method
+24. https://www.geeksforgeeks.org/find-root-of-a-number-using-newtons-method/
+25. https://www.w3schools.com/python/ref_func_round.asp
+26. https://chatgpt.com/share/6806aab8-4c48-800d-bd96-cdd0a3bacafc
+
+Week 7:
+27. 
+28. 
+29.
+30.
+
 # END    
 

@@ -1,3 +1,4 @@
+# weekday.py
 # This program will output if today is a weekday or not.
 # Author: Orla Woods
 
