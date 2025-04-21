@@ -57,7 +57,9 @@ Week 4:
 16. https://chatgpt.com/share/68069acd-eba4-800d-a0e7-f3b55e95547a
 
 Week 5:
-17.
+17. https://www.shecodes.io/athena/10185-how-to-check-what-day-of-the-week-it-is-in-python
+18. https://www.geeksforgeeks.org/python-program-to-find-day-of-the-week-for-a-given-date/
+19. https://chatgpt.com/c/68069f62-4914-800d-8a49-3694d5b79891
 
 # END    
 
