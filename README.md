@@ -1,6 +1,6 @@
 # Project Title: pands-weekly-tasks
 
-## Author:  
+## *Author:*  
 Orla Woods
 
 ## *Description:*
