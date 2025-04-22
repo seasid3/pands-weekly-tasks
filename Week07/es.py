@@ -25,7 +25,7 @@ with open("moby-dick.txt", "w+") as f: # open in write mode and in text mode
 # (https://chatgpt.com/share/6806c0a1-e9ec-800d-adf1-0d56fb4b211a), the code provided seemed to work but was 
 # still reading in the how now brown cow text from the maby-dick.txt file I created above. 
 # I then asked chatGPT "how do i get all the text from moby dick into moby-dick.txt" 
-# (https://chatgpt.com/c/6806c0e2-a80c-800d-b843-1983716ec034) and it said i could do 
+# (https://chatgpt.com/share/68077cba-ebe0-800d-9946-a66667ddb9fc) and it said i could do 
 # this by saving a txt file directly from here: https://www.gutenberg.org/files/2701/2701-h/2701-h.htm
 # As I had created the txt file already, I decided to do it manually. This didnt look
 # great so I went to https://www.gutenberg.org/ebooks/2701 and saved the plain text file to my 
@@ -115,9 +115,9 @@ if __name__ == "__main__":
 # To be totally upfront again, I was absolutely lost with this. I relied on chatGPT for all of the help
 # as when I went to read the python documentation it was very complicated and I needed it explained explicitly 
 # to me. When I got the code working, I asked chatGPT to explain each line of code to me 
-# (https://chatgpt.com/share/6806c0a1-e9ec-800d-adf1-0d56fb4b211a) and that is where I got 
-# the comments from. While I am able to type "python es.py moby-dick-txt" in the terminal and return a count on 
-# the 'e's in the moby-dick.txt file I created (I am not sure which extra text I erased that you have in yours 
-# and # I no longer have, but I don't think the actual number is what's important?), I really want to be upfront
-# that I may never have been able to complete this task without ChatGPT and I am on that knife edge of
-# understanding/not understanding it.
+# (https://chatgpt.com/share/6806c0a1-e9ec-800d-adf1-0d56fb4b211a this is a continuation of the conversation above)
+# and that is where I got # the comments from. While I am able to type "python es.py moby-dick-txt" in the
+# terminal and return a count on the 'e's in the moby-dick.txt file I created (I am not sure which extra text I 
+# erased that you have in yours and I no longer have, but I don't think the actual number is what's important?), 
+# I really want to be upfront # that I may never have been able to complete this task without ChatGPT and I am on
+# that knife edge of understanding/not understanding it.

@@ -73,10 +73,9 @@ Week 6:
 
 Week 7:  
 * https://chatgpt.com/share/6806c0a1-e9ec-800d-adf1-0d56fb4b211a
-* https://chatgpt.com/c/6806c0e2-a80c-800d-b843-1983716ec034 
-* https://www.gutenberg.org/files/2701/2701-h/2701-h.htm  
+* https://chatgpt.com/share/68077cba-ebe0-800d-9946-a66667ddb9fc
+* https://www.gutenberg.org/files/2701/2701-h/2701-h.htm 
 * https://www.gutenberg.org/ebooks/2701  
-* https://chatgpt.com/share/6806c0a1-e9ec-800d-adf1-0d56fb4b211a  
 
 Week 8:  
 * https://realpython.com/numpy-random-normal/   
