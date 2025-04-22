@@ -109,7 +109,7 @@ Week 8:
 * https://matplotlib.org/stable/gallery/subplots_axes_and_figures/shared_axis_demo.html#sphx-glr-gallery-subplots-axes-and-figures-shared-axis-demo-py  
 
 ## *Acknowledgements:*
-I would like to take this opportunity to thank Andrew Beatty for a very informative and interesting series of lectures and labs in this module, which has let me hit the ground running thanks to a very steep learning curve. It has been so interesting and I really look forward to the next modules in the course programme! (Can't believe I'm actually coding!!!! :D)
+I would like to take this opportunity to thank Andrew Beatty for a very informative and interesting series of lectures and labs in this module, which have let me hit the ground running thanks to a very steep learning curve. It has been so so interesting and I really look forward to the next modules in the course programme! (Can't believe I'm actually coding!!!! :D)
 
 # END    
 
