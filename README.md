@@ -1,10 +1,10 @@
 # pands-weekly-tasks
 
-## Description:
+## *Description:*
 
 This repository contains submissions for each of the Weekly Tasks (Week 1 to Week 8, inclusive). Please note that any references to sources are noted in the code as comments. They are also listed below. 
 
-### Weekly Tasks:  
+## *Weekly Tasks:*  
 
 *Week 1: helloworld.py*  
 This program prints Hello World!
@@ -31,7 +31,7 @@ This program reads in a text file and outputs the numbers of e's it contains. Th
 *Week 8: plottask.py*  
 This program displays a histogram of a normal distribution of 1000 values with a mean of 5 and a standard deviation of 2. Also, the function h(x)=x**3 in the rage 0 to 10 is plotted. Both plots are on a single set of axes. The image of the plot is saved as the file plottask.png.
 
-### *References*  
+## *References*  
 
 Week 1:   
 * https://www.datacamp.com/tutorial/python-print-function 
