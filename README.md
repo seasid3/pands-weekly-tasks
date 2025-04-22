@@ -77,7 +77,12 @@ Week 7:
 30. https://www.gutenberg.org/ebooks/2701
 
 Week 8:
-31. 
+31. https://realpython.com/numpy-random-normal/ 
+32. https://numpy.org/doc/2.1/reference/random/generated/numpy.random.normal.html
+33. https://pynative.com/python-get-random-float-numbers/#:~:text=Use%20the%20round()%20function,precision%20to%20two%20decimal%20places.https://realpython.com/numpy-random-normal/  
+34. https://numpy.org/doc/2.1/reference/generated/numpy.arange.html#numpy-arange
+35. https://numpy.org/doc/2.2/reference/generated/numpy.histogram.html 
+36. https://matplotlib.org/stable/gallery/subplots_axes_and_figures/shared_axis_demo.html#sphx-glr-gallery-subplots-axes-and-figures-shared-axis-demo-py
 
 # END    
 
