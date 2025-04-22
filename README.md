@@ -6,11 +6,11 @@ This repository contains submissions for each of the Weekly Tasks (Week 1 to Wee
 
 ### *Weekly Tasks:*  
 
-- *Week 1: helloworld.py*  
-  This program prints Hello World!
+*Week 1: helloworld.py*  
+This program prints Hello World!
 
-- *Week 2: bank.py*  
-  This program asks the user to input two amounts in cent and outputs the sum in euro amount (including the decimal place).
+*Week 2: bank.py*  
+This program asks the user to input two amounts in cent and outputs the sum in euro amount (including the decimal place).
 
 - *Week 3: accounts.py*  
   This program asked the user to input a 10 character account number and outputs the account number with the first 6 digits replaced by Xs and the last 4 showing.
