@@ -40,14 +40,13 @@ This program displays a histogram of a normal distribution of 1000 values with a
 
 ### *References*  
 
-Week 1 :  
-1. https://www.datacamp.com/tutorial/python-print-function 
-3. https://stackoverflow.com/questions/70080676/how-do-i-print-cents-as-decimals  
+Week 1:   
+* https://www.datacamp.com/tutorial/python-print-function 
 
 Week 2:  
-2. https://www.datacamp.com/tutorial/how-to-convert-a-string-into-an-integer-in-python  
-3. https://stackoverflow.com/questions/70080676/how-do-i-print-cents-as-decimals  
-4. https://www.datacamp.com/tutorial/python-round-to-two-decimal-places  
+* https://www.datacamp.com/tutorial/how-to-convert-a-string-into-an-integer-in-python  
+* https://stackoverflow.com/questions/70080676/how-do-i-print-cents-as-decimals  
+* https://www.datacamp.com/tutorial/python-round-to-two-decimal-places  
 
 Week 3:   
 5. https://www.datacamp.com/tutorial/elif-statements-python  
