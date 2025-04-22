@@ -1,6 +1,6 @@
 # Project Title: pands-weekly-tasks
 
-## *Author:* Orla Woods
+## Author: Orla Woods
 
 ## *Description:*
 This repository contains submissions for each of the Weekly Tasks (Week 1 to Week 8, inclusive) for the Program and Scripting Module of the Higher Diploma in Science in Computing in Data Analytics, delivered by Andrew Beatty, from January to April 2025. Final submission date for the weekly tasks GitHub repository is 28 April 2025.
@@ -33,7 +33,7 @@ This program reads in a text file and outputs the numbers of e's it contains. Th
 *Week 8: plottask.py*  
 This program displays a histogram of a normal distribution of 1000 values with a mean of 5 and a standard deviation of 2. Also, the function h(x)=x**3 in the rage 0 to 10 is plotted. Both plots are on a single set of axes. The image of the plot is saved as the file plottask.png.
 
-## *Requirements*  
+## *Requirements:*  
 The followong are required for the code files to run:  
 - python  
 - datetime module  
@@ -42,7 +42,7 @@ The followong are required for the code files to run:
 - numpy  
 - matplotlib  
 
-## *References*  
+## *References:*  
 As well as writing the source references into each task's python code file (as comments), they are listed below. Please note that ChatGPT links can take several attempts to load.  
 
 Week 1:   
@@ -97,7 +97,7 @@ Week 8:
 * https://numpy.org/doc/2.2/reference/generated/numpy.histogram.html  
 * https://matplotlib.org/stable/gallery/subplots_axes_and_figures/shared_axis_demo.html#sphx-glr-gallery-subplots-axes-and-figures-shared-axis-demo-py  
 
-## *Acknowledgements*
+## *Acknowledgements:*
 I would like to take this opportunity to thank Andrew Beatty for a very informative and interesting series of lectures and labs in this module, which has let me hit the ground running thanks to a very steep learning curve. It has been so interesting and I really look forward to the next modules in the course programme! (Can't believe I'm actually coding!!!! :D)
 
 # END    
