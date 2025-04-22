@@ -1,6 +1,7 @@
 # es.py
 # This program will read in a text file (moby-dick.txt) and outputs the number of 'e's it contains. 
 # Author: Orla Woods
+# Run python es.py moby-dick.txt in the terminal to run this code for the moby-dick.txt file
 
 # I found this very confusing. 
 # To start with, I took the messingwithfiles (txt files) code from week 7 lecures (that I type as I listen to 
@@ -116,7 +117,7 @@ if __name__ == "__main__":
 # as when I went to read the python documentation it was very complicated and I needed it explained explicitly 
 # to me. When I got the code working, I asked chatGPT to explain each line of code to me 
 # (https://chatgpt.com/share/6806c0a1-e9ec-800d-adf1-0d56fb4b211a this is a continuation of the conversation above)
-# and that is where I got # the comments from. While I am able to type "python es.py moby-dick-txt" in the
+# and that is where I got # the comments from. While I am able to type "python es.py moby-dick.txt" in the
 # terminal and return a count on the 'e's in the moby-dick.txt file I created (I am not sure which extra text I 
 # erased that you have in yours and I no longer have, but I don't think the actual number is what's important?), 
 # I really want to be upfront # that I may never have been able to complete this task without ChatGPT and I am on

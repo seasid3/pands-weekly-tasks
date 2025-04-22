@@ -68,6 +68,7 @@ Week 4:
 * https://www.reddit.com/r/learnpython/comments/yq7vkk/write_a_program_that_prompts_the_user_to_enter_an/?rdt=37874
 * https://www.w3schools.com/python/python_while_loops.asp  
 * https://chatgpt.com/share/68069acd-eba4-800d-a0e7-f3b55e95547a  
+* https://chatgpt.com/share/6807f4d2-99a8-800d-9e36-966b9e619a62
 
 Week 5:  
 * https://www.shecodes.io/athena/10185-how-to-check-what-day-of-the-week-it-is-in-python  

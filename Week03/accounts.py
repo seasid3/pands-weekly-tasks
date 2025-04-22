@@ -5,7 +5,7 @@
 # author: Orla Woods
 
 # Commenting out the task so I can run the Extra task:
-'''
+
 # Ask the user to input a 10 digit account number.
 # Revising this task at the end of the module, I have decided to use a while loop to ensure the
 # user only inputs a 10 digit number, using the length function. 
@@ -14,6 +14,7 @@
 # I had to ask chatGPT to check my code and correct it: 
 # https://chatgpt.com/share/68064053-6b28-800d-b835-e32d53e0e69b
 
+'''
 account_number = input("Please enter a 10 digit account number: ")
 while len(account_number) != 10 or not account_number.isdigit():
     account_number = input("Invalid input. Please enter a 10 digit account number: ")
@@ -21,7 +22,7 @@ while len(account_number) != 10 or not account_number.isdigit():
 last_four_digits = account_number[-4:] 
 security_account_number = (f"Your account number is: XXXXXX{last_four_digits}")
 print(security_account_number)
-''' 
+
 
 # Extra task:
 # I think I need to assign the last 4 digits as integers. Using place assignment, counting back from the end of 
@@ -29,6 +30,7 @@ print(security_account_number)
 # struggle is how to replace n amount of numbers from the start of the a/c number to position -4 with the same 
 # number of Xs as digits in that part of the a/c number. I want to define the range from 0 position to -4 as a 
 # string (I think?) # of n numberrs and replace this string with another string of n number of Xs.
+'''
 
 account_number = input("Please enter an account number of any length: ")
 last_four_digits = account_number[-4:]

@@ -27,11 +27,19 @@ while number <= 0:
 # My code wasn't working so I asked chatGPT: 
 # https://chatgpt.com/share/68069acd-eba4-800d-a0e7-f3b55e95547a
 
+steps = 0 # to count the number of steps it took to get to 1
+max_value = number # to keep track of the maximum value reached 
 while number != 1:
-     if number % 2 == 0:
-         number = number // 2
-     else:
-         number = number * 3 + 1
-print(number)
-
+    print(number) 
+    steps += 1
+    number = number // 2 if number % 2 == 0 else 3 * number + 1
+    if number > max_value:
+        max_value = number # update the maximum value if the current number is greater than the previous max
+    
+print(number) 
 print("Got there in the end!")
+
+# I checked the code at the end becuase the itterative answers werent printing out:
+# https://chatgpt.com/share/6807f4d2-99a8-800d-9e36-966b9e619a62
+
+

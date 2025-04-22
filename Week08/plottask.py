@@ -2,6 +2,7 @@
 # This program will display a histogram of a normal distribution of 1000 values with a mean of 5 and a 
 # standard deviation (SD) of 2. It will also define the function h(x)=x**3 in the range 0 to 10 
 # and will plot both plots on the same set of axes.
+# The plottask image is saved as the file plottask.png
 # Author: Orla Woods
 
 # Step 1: Import modules
