@@ -39,8 +39,11 @@ This program displays a histogram of a normal distribution of 1000 values with a
 
 
 ### *References*  
-Week 1:  
-1. https://www.w3schools.com/python/ref_func_print.asp
+
+Week 1 :  
+2. https://www.datacamp.com/tutorial/how-to-convert-a-string-into-an-integer-in-python  
+3. https://stackoverflow.com/questions/70080676/how-do-i-print-cents-as-decimals  
+4. https://www.datacamp.com/tutorial/python-round-to-two-decimal-places  
 
 Week 2:  
 2. https://www.datacamp.com/tutorial/how-to-convert-a-string-into-an-integer-in-python  
