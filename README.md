@@ -31,8 +31,14 @@ This program reads in a text file and outputs the numbers of e's it contains. Th
 *Week 8: plottask.py*  
 This program displays a histogram of a normal distribution of 1000 values with a mean of 5 and a standard deviation of 2. Also, the function h(x)=x**3 in the rage 0 to 10 is plotted. Both plots are on a single set of axes. The image of the plot is saved as the file plottask.png.
 
-### *References*  
 
+
+
+
+
+
+
+### *References*  
 Week 1:  
 1. https://www.w3schools.com/python/ref_func_print.asp
 
