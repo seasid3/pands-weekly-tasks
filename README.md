@@ -33,7 +33,8 @@ This repository contains submissions for each of the Weekly Tasks (Week 1 to Wee
 
 ### *References*  
   
-Week 1:  1. https://www.datacamp.com/tutorial/python-print-function  
+Week 1:  
+1. https://www.datacamp.com/tutorial/python-print-function  
 
 Week 2:  
 2. https://www.datacamp.com/tutorial/how-to-convert-a-string-into-an-integer-in-python  
