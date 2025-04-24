@@ -4,7 +4,7 @@
 Orla Woods
 
 ## *Description:*
-This repository contains submissions for each of the Weekly Tasks (Week 1 to Week 8, inclusive) for the Program and Scripting Module of the Higher Diploma in Science in Computing in Data Analytics, delivered by Andrew Beatty, from January to April 2025. Final submission date for the weekly tasks GitHub repository is 28 April 2025.
+This repository contains submissions for each of the Weekly Tasks (Week 1 to Week 8, inclusive) for the Program and Scripting Module of the Higher Diploma in Science in Computing in Data Analytics, delivered by Andrew Beatty, from January to April 2025. Final submission date for the pands-weekly-tasks GitHub repository is 28 April 2025.
 
 ## *Weekly Tasks:*  
 The Weekly tasks are assigned by Andrew Beatty following each week's lecture series and labs. The file name(s) and description of the program for each of the tasks is listed as follows:
