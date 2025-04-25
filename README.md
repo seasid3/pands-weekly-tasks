@@ -7,7 +7,7 @@ Orla Woods
 This repository contains submissions for each of the Weekly Tasks (Week 1 to Week 8, inclusive) for the Program and Scripting Module of the Higher Diploma in Science in Computing in Data Analytics, delivered by Andrew Beatty, from January to April 2025. Final submission date for the pands-weekly-tasks GitHub repository is 28 April 2025.
 
 ## *Weekly Tasks:*  
-The Weekly tasks are assigned by Andrew Beatty following each week's lecture series and labs. The file name(s) and description of the program for each of the tasks is listed as follows:
+The Weekly tasks are assigned by Andrew Beatty following each week's lecture series and labs. The file name(s) and description of the program for each of the tasks is listed as follows.
 Please note that any notes/comments are included in the python code files as comments.
 
 *Week 1: helloworld.py*  
@@ -17,7 +17,7 @@ Please note that any notes/comments are included in the python code files as com
 - This program asks the user to input two amounts in cent and outputs the sum in euro amount (including the decimal place)
 
 *Week 3: accounts.py*  
-- This program asked the user to input a 10 character account number and outputs the account number with the first 6 digits replaced by Xs and the last 4 showing
+- This program asks the user to input a 10 character account number and outputs the account number with the first 6 digits replaced by Xs and the last 4 showing
 - Extra: The program is modified to deal with account numbers of any length
 
 *Week 4: collatz.py*  
