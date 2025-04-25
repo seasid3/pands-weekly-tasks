@@ -8,6 +8,7 @@ This repository contains submissions for each of the Weekly Tasks (Week 1 to Wee
 
 ## *Weekly Tasks:*  
 The Weekly tasks are assigned by Andrew Beatty following each week's lecture series and labs. The file name(s) and description of the program for each of the tasks is listed as follows:
+Please note that any notes/comments are included in the python code files as comments.
 
 *Week 1: helloworld.py*  
 - This program prints Hello World!
@@ -45,10 +46,10 @@ The Weekly tasks are assigned by Andrew Beatty following each week's lecture ser
 - cmd module
 
 ## *Requirements:*  
-The followong are required for the code files to run:  
-- datetime module  
-- sys module  
-- os module  
+The following modules are required for the code files to run:  
+- datetime 
+- sys 
+- os 
 - numpy  
 - matplotlib  
 
