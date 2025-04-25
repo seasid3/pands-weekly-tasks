@@ -4,8 +4,6 @@
 # Extra: It also does the same for an account number of n digits in length (where n >= 4)
 # author: Orla Woods
 
-
-
 # Task: ask the user to input a 10 digit account number.
 # Revising this task at the end of the module, I have decided to use a while loop to ensure the
 # user only inputs a 10 digit number, using the length function. 
