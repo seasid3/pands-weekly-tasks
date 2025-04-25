@@ -84,7 +84,7 @@ Week 4:
 Week 5:  
 * https://www.shecodes.io/athena/10185-how-to-check-what-day-of-the-week-it-is-in-python  
 * https://www.geeksforgeeks.org/python-program-to-find-day-of-the-week-for-a-given-date/  
-* https://chatgpt.com/c/68069f62-4914-800d-8a49-3694d5b79891  
+* https://chatgpt.com/share/680b862a-a638-800d-9c13-7ad88168ca38
 
 Week 6:  
 * https://en.wikipedia.org/wiki/Newton%27s_method  
